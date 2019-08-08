@@ -1,0 +1,15 @@
+﻿<Window x:Name="window" x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded" 
+        mc:Ignorable="d"
+        Title="ay canvas" Height="400" Width="600">
+    <Grid>
+        <Canvas Background="#31A4F1"  ClipToBounds="True" x:Name="Cav" >
+            
+        </Canvas>
+    </Grid>
+
+</Window>
